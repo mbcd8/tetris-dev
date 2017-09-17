@@ -1,21 +1,17 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <ncurses.h>
+                          // ai = я
+                          // sch = ш
+                          // tsch = ч
 
-#define clear_term() printf("\033[0d\033[2J"); 
-#define clear_box() printf("\033[?12l");
-
-#define setx_null() getx = 0;
-#define sety_null() gety = 0;
-
-
-
-
-
-
-#define action() getch();
- 
-int main(int argc, char *argv[])
+#include <stdio.h>        // biblioteka dla woda i wiwoda .
+#include <unistd.h>       // dla aperatora (sleep) .
+#include <ncurses.h>      // dla grafiki .
+                                                                                                                
+#define clear_term() printf("\033[0d\033[2J");        // atschischaet ecran s enteromi .
+#define clear_box() printf("\033[?12l");              // atschischaet ecran s speisami .
+                                                                                                                
+#define setx_null() getx = 0;        // abnulaiet cordinati x
+#define sety_null() gety = 0;        // abnulaiet cordinati y                                                                
+                                                                                                                int main(int argc, char *argv[]) // funkzia (main) glawnai funkzia
 
 {
 
@@ -34,6 +30,12 @@ clear_box();
 }
 
 
+
+
+/*
+
+
+
 void about_box()
 
 
@@ -45,6 +47,10 @@ void about_box()
 }
 
 
+
+
+
+*/
 
 menu_win:
 
