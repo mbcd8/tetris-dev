@@ -5,6 +5,14 @@
 #define clear_term() printf("\033[0d\033[2J"); 
 #define clear_box() printf("\033[?12l");
 
+#define setx_null() getx = 0;
+#define sety_null() gety = 0;
+
+
+
+
+
+
 #define action() getch();
  
 int main(int argc, char *argv[])
