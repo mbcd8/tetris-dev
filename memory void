@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void function_1()
+
+    {
+   
+    int memory_1;
+    int a, b;
+    
+    memory_1 = a + b;
+    
+    }
+    
+void function_2;
+
+    {
+    
+    int memory_1;
+    int a, b;
+    
+    memory_1 = a - b;
+    
+    }
+    
+    //ni robotoet
